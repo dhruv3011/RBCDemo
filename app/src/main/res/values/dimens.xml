@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="viewSpacing_6dp">6dp</dimen>
+    <dimen name="viewSpacing_8dp">8dp</dimen>
+    <dimen name="viewSpacing_10dp">10dp</dimen>
+    <dimen name="viewSpacing_12dp">12dp</dimen>
+    <dimen name="viewSpacing_30dp">30dp</dimen>
+    <dimen name="viewSpacing_50dp">50dp</dimen>
+    <dimen name="viewSpacing_55dp">55dp</dimen>
+    <dimen name="textSize12sp">12sp</dimen>
+    <dimen name="textSize14sp">14sp</dimen>
+    <dimen name="textSize16sp">16sp</dimen>
+    <dimen name="textSize20sp">20sp</dimen>
+    <dimen name="textSize40sp">40sp</dimen>
+</resources>

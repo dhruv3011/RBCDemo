@@ -1,0 +1,28 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+
+    plugins{
+        id  'kotlinx-serialization'
+    }
+
+    resolutionStrategy {
+        eachPlugin {
+            if (requested.id.id == 'kotlinx-serialization') {
+                useModule("org.jetbrains.kotlin:kotlin-serialization:1.6.10")
+            }
+        }
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+rootProject.name = "RBCDemo"
+include ':app'
